@@ -1,0 +1,28 @@
+**/bin/
+**/obj/
+**/.vs/
+**/.idea/
+# Keep shareable VS Code settings/tasks; exclude per-user workspace files.
+*.code-workspace
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+**/TestResults/
+**/artifacts/
+*.binlog
+*.tmp
+*.log
+.validation/
+# Local credentials and agent state are not learning material.
+.env
+.env.*
+!.env.example
+**/secrets.json
+*.pfx
+*.p12
+*.key
+.aws/
+.agents/
+.codex/
